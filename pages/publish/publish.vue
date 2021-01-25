@@ -36,7 +36,7 @@
 </template>
 
 <script>
-	import image from '@/common/image.js';
+	// import image from '@/common/image.js';
 	
 	var sourceType = [
 		['camera'],

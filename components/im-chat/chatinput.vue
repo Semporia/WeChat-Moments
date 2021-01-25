@@ -74,10 +74,10 @@
 		width: 100%;
 		height: 80upx;
 		min-height: 80upx;
-		border-top: solid 1px #bbb;
+		border-top: solid 1px var(--border-color);
 		overflow: hidden;
 		padding: 5upx;
-		background-color: #F4F5F6;
+		background-color: var(--Highlight-background-color);
 	}
 	.footer-left {
 
@@ -94,7 +94,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: #1482D1;
+		color: var(--blue);
 	}
 	.footer-center {
 		flex: 1;
@@ -106,7 +106,7 @@
 	}
 	.footer-center .input-text {
 		flex: 1;
-		background: #fff;
+		background: var(--Highlight-background-color);
 		/* border: solid 1upx #ddd; */
 		padding: 10upx !important;
 		font-family: verdana !important;
@@ -114,7 +114,7 @@
 		border-radius: 15upx;
 	}
 	.footer-right .send-comment{
-		background-color: #007AFF;
+		background-color: var(--blue);
 		text-align: center;
 		line-height: 60upx;
 		color: #FFFFFF;

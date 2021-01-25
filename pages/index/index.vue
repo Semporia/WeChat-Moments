@@ -6,7 +6,7 @@
 				<view class="top-pic">
 					<image class="header" src="../../static/index/test/header06.jpg" @tap="test"></image>
 				</view>
-				<view class="top-name">Liuxy</view>
+				<view class="top-name">Semporia</view>
 			</view>
 		</view>
 
@@ -41,7 +41,7 @@
 						<text class="nickname" v-for="(user,index_like) in post.like" :key="index_like">{{user.username}}</text>
 					</view>
 					<view class="footer_content" v-for="(comment,comment_index) in post.comments.comment" :key="comment_index" @tap="reply(index,comment_index)">
-						<text class="comment-nickname">{{comment.username}}: <text class="comment-content">{{comment.content}}</text></text>
+						<view class="comment-nickname">{{comment.username}}: <text class="comment-content">{{comment.content}}</text></view>
 					</view>
 				</view>
 			</view>
