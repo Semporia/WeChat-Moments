@@ -1,26 +1,5 @@
-命令行指令
+# WeChat-Moments
 
+基於uni-app開發的仿微信朋友圈，點贊評論 + 回覆評論、圖片預覽、發佈頁、圖片上載、圖片壓縮(app端)、發布頁側滑返回(app端體驗效果最佳)、評論與回覆時輸入框自動定位到當前內容下(導致輸入框閃爍,體驗不佳,待完善,可直接刪除adjust函數第一行的return測試)下拉刷新 + 加載更多
 
-# 创建新版本库
-
-**echo "# README" >> README.md**
-
-**git init**
-
-**git add README.md**
-
-**git commit -m "first commit**
-
-**git remote add origin git@github.com:Semporia/WeChat-Moments.git**
-
-**git push -u origin master**
-
-# 已存在的文件夹或 Git 仓库
-
-
-**git init**
-
-**git remote add origin git@github.com:Semporia/WeChat-Moments.git**
-
-**git push -u origin master**
 
